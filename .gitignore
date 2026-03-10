@@ -1,0 +1,22 @@
+# Ignore Python cache files and folders
+__pycache__/
+*.py[cod]
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore build artifacts
+build/
+dist/
+
+# Exclude the 'src test' folder (assuming you meant it literally as named)
+src test/
+
+# Ignore CachedResults folder
+Data/CachedResults/
+
+Functionality Sonic vs LoadMaster.xlsx
+
+venv_packing/
+
+Naamloos.png

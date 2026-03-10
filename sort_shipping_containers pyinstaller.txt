@@ -1,0 +1,13 @@
+venv_packing\Scripts\activate
+
+C:\Python311\python.exe -m PyInstaller --clean --onefile --windowed --icon=Data/Img/application_logo.ico --name=LoadShippingContainers ^
+--paths src ^
+--add-data "Data;Data" ^
+--collect-all pandas ^
+--collect-all PyQt5 ^
+--collect-all numpy ^
+--collect-all pyqtgraph ^
+--collect-all OpenGL ^
+--collect-all requests ^
+--collect-all openpyxl ^
+main.py
