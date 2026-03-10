@@ -2,8 +2,6 @@
 
 A desktop application that solves the **3D bin packing problem** for real-world logistics — optimally loading shipping containers with full visualization and export.
 
-> This is a personal project built to explore combinatorial optimization and desktop GUI development in Python.
-
 ## What it does
 
 Given a list of items (with real-world constraints like weight limits, stackability, and rotation rules), the app determines the optimal arrangement inside a shipping container and renders the result as an interactive 3D visualization.
